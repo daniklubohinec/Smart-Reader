@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Purchases View Controller-->
+        <scene sceneID="LjT-m1-7K1">
+            <objects>
+                <viewController storyboardIdentifier="PurchasesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jHZ-7Z-Zz3" customClass="PurchasesViewController" customModule="Smart_Reader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Via-YS-aMM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Acv-MF-MBj">
+                                <rect key="frame" x="40" y="794" width="313" height="16"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTQ-Hd-O9s">
+                                        <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="16"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Terms of use">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="13" name="Inter-Regular"/>
+                                                        <font key="NSOriginalFont" size="13" name="Inter-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        <integer key="NSUnderline" value="1"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="8E8E94"/>
+                                        </buttonConfiguration>
+                                        <metadata>
+                                            <string key="libraryAssetSourceID">Xcode.InterfaceBuilderKit.CocoaTouchIntegration.ObjectLibraryAssetProvider:IBUIButtonPlain</string>
+                                        </metadata>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2L9-sl-5Fs">
+                                        <rect key="frame" x="116.66666666666666" y="0.0" width="73.333333333333343" height="16"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Restore">
+                                                    <attributes>
+                                                        <font key="NSFont" size="13" name="Inter-Regular"/>
+                                                        <font key="NSOriginalFont" size="13" name="Inter-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        <integer key="NSUnderline" value="1"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="8E8E94"/>
+                                        </buttonConfiguration>
+                                        <metadata>
+                                            <string key="libraryAssetSourceID">Xcode.InterfaceBuilderKit.CocoaTouchIntegration.ObjectLibraryAssetProvider:IBUIButtonPlain</string>
+                                        </metadata>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMc-fJ-jg2">
+                                        <rect key="frame" x="200" y="0.0" width="113" height="16"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Privacy Policy">
+                                                    <attributes>
+                                                        <font key="NSFont" size="13" name="Inter-Regular"/>
+                                                        <font key="NSOriginalFont" size="13" name="Inter-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        <integer key="NSUnderline" value="1"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="8E8E94"/>
+                                        </buttonConfiguration>
+                                        <metadata>
+                                            <string key="libraryAssetSourceID">Xcode.InterfaceBuilderKit.CocoaTouchIntegration.ObjectLibraryAssetProvider:IBUIButtonPlain</string>
+                                        </metadata>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="6VT-3r-xDv"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBp-pX-IGX">
+                                <rect key="frame" x="16" y="634" width="361" height="152"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMr-ov-9gI">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="64"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="w3I-oi-8L4">
+                                                <rect key="frame" x="16" y="20.666666666666664" width="24" height="22.666666666666664"/>
+                                                <color key="tintColor" name="12837F"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="BTi-OV-G98"/>
+                                                    <constraint firstAttribute="width" constant="24" id="FdD-lS-KYY"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekly $6,99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOk-lQ-wdb">
+                                                <rect key="frame" x="48" y="22.333333333333371" width="177" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCz-RM-a41">
+                                                <rect key="frame" x="233" y="18" width="112" height="28"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 Days of Trial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noX-y2-Pkk">
+                                                        <rect key="frame" x="8" y="4" width="96" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="96" id="jFS-Th-lMg"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="14"/>
+                                                        <color key="textColor" name="12837F"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" name="EBFAF9"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="28" id="2ec-hf-J0L"/>
+                                                    <constraint firstItem="noX-y2-Pkk" firstAttribute="leading" secondItem="eCz-RM-a41" secondAttribute="leading" constant="8" id="992-q4-4m0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="noX-y2-Pkk" secondAttribute="trailing" constant="8" id="RHV-xL-kyg"/>
+                                                    <constraint firstAttribute="bottom" secondItem="noX-y2-Pkk" secondAttribute="bottom" constant="4" id="SRj-z9-58U"/>
+                                                    <constraint firstItem="noX-y2-Pkk" firstAttribute="top" secondItem="eCz-RM-a41" secondAttribute="top" constant="4" id="zvc-0v-npF"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="DlF-mZ-Wp2"/>
+                                            <constraint firstItem="ZOk-lQ-wdb" firstAttribute="leading" secondItem="w3I-oi-8L4" secondAttribute="trailing" constant="8" id="Nxy-Ky-tQk"/>
+                                            <constraint firstItem="ZOk-lQ-wdb" firstAttribute="top" secondItem="EMr-ov-9gI" secondAttribute="top" constant="22.333333333333371" id="RJR-uO-4y7"/>
+                                            <constraint firstItem="eCz-RM-a41" firstAttribute="leading" secondItem="ZOk-lQ-wdb" secondAttribute="trailing" constant="8" id="WvP-yv-JMY"/>
+                                            <constraint firstAttribute="trailing" secondItem="eCz-RM-a41" secondAttribute="trailing" constant="16" id="b0r-0u-bd1"/>
+                                            <constraint firstItem="w3I-oi-8L4" firstAttribute="centerY" secondItem="EMr-ov-9gI" secondAttribute="centerY" id="do3-3V-qlP"/>
+                                            <constraint firstItem="ZOk-lQ-wdb" firstAttribute="centerY" secondItem="EMr-ov-9gI" secondAttribute="centerY" id="ij5-HM-yEB"/>
+                                            <constraint firstItem="eCz-RM-a41" firstAttribute="centerY" secondItem="EMr-ov-9gI" secondAttribute="centerY" id="mcq-uO-Ep2"/>
+                                            <constraint firstItem="w3I-oi-8L4" firstAttribute="leading" secondItem="EMr-ov-9gI" secondAttribute="leading" constant="16" id="q4h-sq-gfX"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qk5-fy-jUn">
+                                        <rect key="frame" x="0.0" y="88" width="361" height="64"/>
+                                        <color key="backgroundColor" name="12837F"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="xru-Jm-vVt"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Start 3-Day Trial, then $6.99/week" titleAlignment="center">
+                                            <fontDescription key="titleFontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                            <attributedString key="attributedSubtitle">
+                                                <fragment content="Auto renewable. Cancel anytime">
+                                                    <attributes>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="14" name="Inter-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Qk5-fy-jUn" secondAttribute="trailing" id="Oje-ul-tyD"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qk5-fy-jUn" secondAttribute="bottom" id="QbL-Ys-Rhx"/>
+                                    <constraint firstAttribute="trailing" secondItem="EMr-ov-9gI" secondAttribute="trailing" id="Wdx-8f-9cn"/>
+                                    <constraint firstItem="EMr-ov-9gI" firstAttribute="top" secondItem="QBp-pX-IGX" secondAttribute="top" id="We6-5n-BIe"/>
+                                    <constraint firstItem="EMr-ov-9gI" firstAttribute="leading" secondItem="QBp-pX-IGX" secondAttribute="leading" id="ecg-if-Lyp"/>
+                                    <constraint firstItem="Qk5-fy-jUn" firstAttribute="top" secondItem="EMr-ov-9gI" secondAttribute="bottom" constant="24" id="sz3-Ae-1Hh"/>
+                                    <constraint firstItem="Qk5-fy-jUn" firstAttribute="leading" secondItem="QBp-pX-IGX" secondAttribute="leading" id="yi5-7S-jFC"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gL8-R2-mAA">
+                                <rect key="frame" x="16" y="722" width="361" height="64"/>
+                                <color key="backgroundColor" name="12837F"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="GfO-MN-Luv"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <fontDescription key="titleFontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unlimited QR Code Scanning &amp; Creation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ow-8L-mGQ">
+                                <rect key="frame" x="16" y="534" width="361" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="30j-Ob-07F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="36"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compatible with over 10 barcode types, including QR codes, Data Matrix, and more." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Qb-AD-TAU">
+                                <rect key="frame" x="16" y="654" width="361" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="vtW-H5-WYp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IntroFirstScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="PTo-O8-ui5">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="500"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YoP-S5-Fvh">
+                                <rect key="frame" x="16" y="67" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="7BY-1S-sVn"/>
+                                    <constraint firstAttribute="width" constant="18" id="heZ-ao-cMr"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="xmark" catalog="system" buttonSize="mini">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RRN-ng-2v0"/>
+                        <color key="backgroundColor" name="F5F5F5"/>
+                        <constraints>
+                            <constraint firstItem="QBp-pX-IGX" firstAttribute="top" secondItem="6Ow-8L-mGQ" secondAttribute="bottom" constant="12" id="0Ob-HD-ABF"/>
+                            <constraint firstItem="6Ow-8L-mGQ" firstAttribute="leading" secondItem="RRN-ng-2v0" secondAttribute="leading" constant="16" id="3XW-bU-ktO"/>
+                            <constraint firstItem="YoP-S5-Fvh" firstAttribute="leading" secondItem="RRN-ng-2v0" secondAttribute="leading" constant="16" id="CCc-cI-iKV"/>
+                            <constraint firstItem="RRN-ng-2v0" firstAttribute="trailing" secondItem="QBp-pX-IGX" secondAttribute="trailing" constant="16" id="FQA-sO-enp"/>
+                            <constraint firstItem="PTo-O8-ui5" firstAttribute="centerX" secondItem="Via-YS-aMM" secondAttribute="centerX" id="Hhu-ji-Li4"/>
+                            <constraint firstItem="QBp-pX-IGX" firstAttribute="leading" secondItem="RRN-ng-2v0" secondAttribute="leading" constant="16" id="NCM-11-gAC"/>
+                            <constraint firstItem="RRN-ng-2v0" firstAttribute="trailing" secondItem="gL8-R2-mAA" secondAttribute="trailing" constant="16" id="Npr-JC-QOV"/>
+                            <constraint firstItem="gL8-R2-mAA" firstAttribute="leading" secondItem="RRN-ng-2v0" secondAttribute="leading" constant="16" id="Uyb-Lv-8hV"/>
+                            <constraint firstItem="PTo-O8-ui5" firstAttribute="leading" secondItem="RRN-ng-2v0" secondAttribute="leading" id="X8X-do-7uR"/>
+                            <constraint firstItem="Acv-MF-MBj" firstAttribute="top" secondItem="gL8-R2-mAA" secondAttribute="bottom" constant="8" id="aKE-rq-2Ab"/>
+                            <constraint firstItem="RRN-ng-2v0" firstAttribute="trailing" secondItem="PTo-O8-ui5" secondAttribute="trailing" id="cwG-be-HqG"/>
+                            <constraint firstItem="9Qb-AD-TAU" firstAttribute="leading" secondItem="RRN-ng-2v0" secondAttribute="leading" constant="16" id="dQ4-5j-2t6"/>
+                            <constraint firstItem="RRN-ng-2v0" firstAttribute="trailing" secondItem="9Qb-AD-TAU" secondAttribute="trailing" constant="16" id="dRt-NP-iQq"/>
+                            <constraint firstItem="6Ow-8L-mGQ" firstAttribute="top" relation="lessThanOrEqual" secondItem="PTo-O8-ui5" secondAttribute="bottom" constant="54" id="deL-Gh-Jfe"/>
+                            <constraint firstItem="RRN-ng-2v0" firstAttribute="trailing" secondItem="6Ow-8L-mGQ" secondAttribute="trailing" constant="16" id="ex4-Lh-eCD"/>
+                            <constraint firstItem="PTo-O8-ui5" firstAttribute="top" secondItem="Via-YS-aMM" secondAttribute="top" id="klO-IU-Cue"/>
+                            <constraint firstItem="Acv-MF-MBj" firstAttribute="bottom" secondItem="RRN-ng-2v0" secondAttribute="bottom" constant="-8" id="l2T-JO-38m"/>
+                            <constraint firstItem="gL8-R2-mAA" firstAttribute="top" secondItem="9Qb-AD-TAU" secondAttribute="bottom" constant="24" id="qw7-gi-TbC"/>
+                            <constraint firstItem="Acv-MF-MBj" firstAttribute="leading" secondItem="RRN-ng-2v0" secondAttribute="leading" constant="40" id="s62-Sg-im4"/>
+                            <constraint firstItem="Acv-MF-MBj" firstAttribute="top" secondItem="QBp-pX-IGX" secondAttribute="bottom" constant="8" id="v3K-n6-FoO"/>
+                            <constraint firstItem="RRN-ng-2v0" firstAttribute="trailing" secondItem="Acv-MF-MBj" secondAttribute="trailing" constant="40" id="xil-TF-2ij"/>
+                            <constraint firstItem="YoP-S5-Fvh" firstAttribute="top" secondItem="RRN-ng-2v0" secondAttribute="top" constant="8" id="ymI-1u-auT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dismissControllerButton" destination="YoP-S5-Fvh" id="yEt-tT-Y6k"/>
+                        <outlet property="nextPageButtonAction" destination="gL8-R2-mAA" id="pI5-Lu-raB"/>
+                        <outlet property="onReviewContentBackView" destination="EMr-ov-9gI" id="B7l-a1-zrb"/>
+                        <outlet property="onReviewDurationLabel" destination="noX-y2-Pkk" id="0hA-Pu-7R1"/>
+                        <outlet property="onReviewPriceTextLabel" destination="ZOk-lQ-wdb" id="3fd-2k-MaA"/>
+                        <outlet property="privacyPolicyPageButton" destination="lMc-fJ-jg2" id="MF8-wK-g0v"/>
+                        <outlet property="purchasesSubtitleTextLabel" destination="9Qb-AD-TAU" id="Mc2-1Q-qCo"/>
+                        <outlet property="purchasesTitleBottomContraint" destination="0Ob-HD-ABF" id="31o-xp-awu"/>
+                        <outlet property="restorePageButton" destination="2L9-sl-5Fs" id="XLj-vO-EkC"/>
+                        <outlet property="termsOfUsePageButton" destination="GTQ-Hd-O9s" id="HGL-H7-P38"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fAi-C1-phS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855.72519083969462" y="-28.169014084507044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IntroFirstScreenImage" width="390" height="500"/>
+        <image name="checkmark.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <namedColor name="12837F">
+            <color red="0.070588235294117646" green="0.51372549019607838" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="8E8E94">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EBFAF9">
+            <color red="0.92156862745098034" green="0.98039215686274506" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="F5F5F5">
+            <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
